@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+    <modifier name="ultraboost-100-false-false-false-false-false-true" numMods="1" userFlags="1">
+        <ssao_inten>0.000 0.000</ssao_inten>
+    </modifier>
+</timecycle_modifier_data>

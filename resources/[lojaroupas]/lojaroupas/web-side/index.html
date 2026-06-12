@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<title>Brazao Store</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app" class="hidden">
+    <div class="panel">
+      <div class="topbar">
+        <div class="logo-wrap">
+          <span class="logo-tag">LOJA</span>
+          <span class="logo-sub">CUSTOMIZE SEU PERSONAGEM</span>
+        </div>
+        <h1 class="title"><i class="fa-solid fa-shirt"></i> ROUPAS</h1>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input id="search" placeholder="Procure um item pelo id" />
+        </div>
+      </div>
+
+      <div class="content">
+        <aside class="cats">
+          <div class="cats-head">
+            <span>Categorias</span>
+            <i class="fa-solid fa-sliders"></i>
+          </div>
+          <nav id="categories"></nav>
+        </aside>
+
+        <section class="items-area">
+          <div class="items-head">
+            <h2 id="catTitle">Chapéus</h2>
+            <div class="rot-btns">
+              <button data-dir="left"  title="Girar"><i class="fa-solid fa-rotate-left"></i></button>
+              <button data-dir="right" title="Girar"><i class="fa-solid fa-rotate-right"></i></button>
+            </div>
+          </div>
+          <div id="items" class="items"></div>
+        </section>
+
+        <!-- Painel flutuante de variacoes (cores) -->
+        <aside id="variations" class="variations hidden">
+          <div class="var-head">
+            <button id="varBack" class="var-back" title="Voltar"><i class="fa-solid fa-chevron-left"></i></button>
+            <div>
+              <div class="var-sub">MODELO SELECIONADO</div>
+              <div id="varTitle" class="var-title">—</div>
+            </div>
+          </div>
+          <div id="varList" class="var-list"></div>
+        </aside>
+      </div>
+
+      <div class="cart-bar">
+        <div class="cart-head"><i class="fa-solid fa-bag-shopping"></i> Carrinho</div>
+        <ul id="cartList" class="cart-list"><li class="empty">Nenhum item selecionado</li></ul>
+      </div>
+
+      <div class="bottom">
+        <div class="total-row">
+          <span>TOTAL:</span><strong id="total">R$ 0</strong>
+        </div>
+        <div class="actions">
+          <button id="btnCancel" class="btn ghost">SAIR</button>
+          <button id="btnBuy" class="btn primary">CONFIRMAR</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

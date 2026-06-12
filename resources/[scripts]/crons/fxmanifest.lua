@@ -1,0 +1,11 @@
+fx_version "bodacious"
+game "gta5"
+lua54 "yes"
+
+server_scripts {
+	"@vrp/lib/Utils.lua",
+	"server-side/*",
+	'client/modules/production.js'
+}
+
+file "config.json"

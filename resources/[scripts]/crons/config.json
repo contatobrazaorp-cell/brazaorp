@@ -1,0 +1,11 @@
+[
+    {
+        "Mode": "RemovePermission",
+        "Timer": 1776445249,
+        "Passport": "2",
+        "Params": {
+            "Permission": "user",
+            "Level": 1
+        }
+    }
+]

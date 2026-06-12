@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+    <modifier name="ultraboost-100-false-true-false-false-false-false" numMods="1" userFlags="1">
+        <water_reflection>0.000 0.000</water_reflection>
+    </modifier>
+</timecycle_modifier_data>

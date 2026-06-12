@@ -1,0 +1,1 @@
+Coords = vec3(167.619995, -980.219971, 29.100000), Heading = 311.77996826172, Hash = -1901044377, Disabled = false, Lock = true, Distance = 1.75

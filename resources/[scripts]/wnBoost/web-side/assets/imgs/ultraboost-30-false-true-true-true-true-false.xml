@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+    <modifier name="ultraboost-30-false-true-true-true-true-false" numMods="8" userFlags="1">
+        <far_clip>60.000 60.000</far_clip>
+        <water_reflection>0.000 0.000</water_reflection>
+        <lod_mult_orphanhd>0.500 0.500</lod_mult_orphanhd>
+        <lod_mult_lod>0.500 0.500</lod_mult_lod>
+        <lod_mult_slod1>0.500 0.500</lod_mult_slod1>
+        <fog_start>73.000 73.000</fog_start>
+        <reflection_interior_range>20.000 20.000</reflection_interior_range>
+        <light_directional_amb_intensity>0.000 0.000</light_directional_amb_intensity>
+    </modifier>
+</timecycle_modifier_data>

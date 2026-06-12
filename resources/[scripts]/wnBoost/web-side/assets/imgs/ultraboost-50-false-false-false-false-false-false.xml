@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+    <modifier name="ultraboost-50-false-false-false-false-false-false" numMods="1" userFlags="1">
+        <far_clip>120.000 120.000</far_clip>
+    </modifier>
+</timecycle_modifier_data>

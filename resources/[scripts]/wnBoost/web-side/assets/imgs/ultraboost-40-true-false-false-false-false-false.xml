@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+    <modifier name="ultraboost-40-true-false-false-false-false-false" numMods="4" userFlags="1">
+        <far_clip>90.000 90.000</far_clip>
+        <light_dir_mult>0.000 1.000</light_dir_mult>
+        <light_natural_amb_down_intensity>0.000 0.000</light_natural_amb_down_intensity>
+        <light_natural_amb_up_intensity>0.000 0.000</light_natural_amb_up_intensity>
+    </modifier>
+</timecycle_modifier_data>

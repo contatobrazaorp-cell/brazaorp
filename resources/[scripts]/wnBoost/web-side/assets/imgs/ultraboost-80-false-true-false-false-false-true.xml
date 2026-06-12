@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+    <modifier name="ultraboost-80-false-true-false-false-false-true" numMods="3" userFlags="1">
+        <far_clip>250.000 250.000</far_clip>
+        <water_reflection>0.000 0.000</water_reflection>
+        <ssao_inten>0.000 0.000</ssao_inten>
+    </modifier>
+</timecycle_modifier_data>

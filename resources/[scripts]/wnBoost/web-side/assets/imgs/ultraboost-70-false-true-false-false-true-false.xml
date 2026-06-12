@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+    <modifier name="ultraboost-70-false-true-false-false-true-false" numMods="4" userFlags="1">
+        <far_clip>200.000 200.000</far_clip>
+        <water_reflection>0.000 0.000</water_reflection>
+        <reflection_interior_range>20.000 20.000</reflection_interior_range>
+        <light_directional_amb_intensity>0.000 0.000</light_directional_amb_intensity>
+    </modifier>
+</timecycle_modifier_data>
